@@ -1,3 +1,5 @@
+// The below is a cleaned up version of the code in `time.ts` file done with the help of the ChatGPT.
+
 import { Request, Response, NextFunction } from 'express';
 import { CustomError } from 'utils/response/custom-error/CustomError';
 
