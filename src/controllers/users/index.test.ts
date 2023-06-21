@@ -1,7 +1,7 @@
-import 'mocha';
 import { expect } from 'chai';
+import 'mocha';
 import { agent as request } from 'supertest';
-import { getRepository, Connection, Repository } from 'typeorm';
+import { Connection, getRepository, Repository } from 'typeorm';
 
 import { dbCreateConnection } from 'orm/dbCreateConnection';
 import { Role } from 'orm/entities/users/types';
